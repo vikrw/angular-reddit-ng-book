@@ -1,0 +1,21 @@
+.details {
+    &__wrapper {
+        background-color: aqua;
+        padding: 1rem;
+    }
+    &__control {
+        margin-top: .5rem;
+        input {
+            width: 100%
+        }
+    }
+    &__submit {
+        margin-bottom: .5rem;
+    }
+    &__submit, &__article {
+        margin-top: 1rem;
+    }
+}
+.error-text {
+    color: red;
+}

@@ -1,0 +1,14 @@
+<div class="article__wrapper">
+  <div class="article__points">
+    <p>{{article.votes}}</p>
+    <p>POINTS</p>
+  </div>
+  <div class="article__contents">
+    <h4>{{article.title}}</h4>
+    <small>({{article.link}})</small>
+    <p>
+      <span class="article__options" (click)="voteUp()">&uarr; upvote</span>
+      <span class="article__options" (click)="voteDown()">&darr; downvote</span>
+    </p>
+  </div>
+</div>
