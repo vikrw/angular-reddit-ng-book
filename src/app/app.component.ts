@@ -10,8 +10,8 @@ import { Article } from './models/article.model';
 export class AppComponent implements OnInit {
   detailsForm: FormGroup;
   articles: Article[] = [
-    { title: 'angular', link: 'angular.io', votes: 4 },
-    { title: 'vue', link: 'vue.io', votes: 2 }
+    { title: 'angular', link: 'https://angular.io', votes: 4, domainName: 'angular'},
+    { title: 'vue', link: 'vue.io', votes: 2, domainName: 'vue' }
   ]
 
   constructor(
